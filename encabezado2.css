@@ -1,0 +1,915 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background: url("f.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+.enca{
+    background: rgba(123,98,0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+}
+.linea{
+    width: 90%;
+    max-width: 1180;
+    margin:auto;
+    overflow: hidden;
+}
+.logo{
+    color:#fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 70px;
+    float: left;
+ }
+ nav{
+line-height: 70px;
+float: right;
+ }
+ nav a{
+     color: #fff;
+     display:inline-block;
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     padding:20px 10px;
+     font-size: 16px;
+     line-height: normal;
+     -webkit-transition: all 500ms ease;
+     transition: all 500ms ease;
+ }
+ nav a:hover{
+     color:#33cccc;
+     border-bottom: 5px solid #33cccc;
+ }
+ p { background-color:green; filter:alpha(opacity=60); opacity:.6; }
+span, img { color:white; filter:alpha(opacity=100); opacity:1; }
+.imagen{
+    width: 80;
+    height: 80;  
+    border-radius: 100%; 
+}
+.peru{
+    width: 80;
+    height: 200;  
+    border-radius: 100%; 
+}
+.yoni{
+    border-radius: 100%;
+    margin: 0.11em;
+}
+.j{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../image/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 330vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    margin-top: 80px;
+    color: aqua;
+    text-shadow: 0px 0px 6px black;
+}
+
+.content-all{
+    width: 210px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.content-carrousel figure{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    
+}
+
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(40deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(80deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(120deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(160deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(200deg) translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(280deg) translateZ(300px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(320deg) translateZ(300px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(360deg) translateZ(300px);}
+
+.content-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+.ya{
+    padding: 1em;
+}
+.ha{
+    padding: 2em;
+    box-align: center;
+}
+j{
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    background-image:linear-gradient(60deg, red, orange,yellow,green, lightblue,violet );
+	color:#1D1F20;
+    border-style: solid;
+    border-width: 2px;
+    margin: 14px;
+    padding: 10px;
+    border-radius: 14px;
+}
+table{
+    width: 90%;
+    height: 350px;
+}
+.o{
+    width: 75%;
+    height: 1px;
+	background-image: linear-gradient(60deg, red, orange,yellow,green, lightblue,violet);
+	color:#1D1F20;
+}
+h{
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+	background-image: linear-gradient(navy, blue, aqua, lightblue,skyblue,lightCyan );
+    border-style: solid;
+    border-width: 2px;
+    margin: 14px;
+    padding: 20px;
+    border-radius: 14px;
+}
+.imagen2{
+    padding: 5em;
+    width: 95%;
+    height: 70%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+p1{
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    border-style: solid;
+    border-width: 2px;
+    margin: 14px;
+    padding: 20px;
+    border-radius: 14px;
+	background-image: linear-gradient(blue, navy,royalblue,indigo, white);
+	color: #fff;
+}
+
+.w{
+    padding: 3em;
+    height: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+  background: #1D1F20;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+	background-image: url(https://i1.wp.com/www.sinmapa.net/wp-content/uploads/2015/07/Bandera-Peru.jpg?fit=1500%2C844&ssl=1);
+	border: coral 15px ridge;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 350px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+  background: #F29720;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card1{
+	background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQGB93VvEVR2Qw/profile-displayphoto-shrink_100_100/0/1516968866187?e=1616025600&v=beta&t=s05yj5wAUwAaUpTAxrefJkyrjKlpIeKSpLET-ntTHzA);
+	background-size: cover;
+    border: coral 20px ridge;
+
+}
+
+.card2{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/fernando.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card3{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/luis.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+  background: #1D1F20;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 350px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+  background: #F29720;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card4{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/sergio.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card5{
+	background-image: url(https://0.academia-photos.com/21903163/6004993/6813892/s200_rosa_virginia.encinas_quille.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card6{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/alain.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+  background: #1D1F20;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 350px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+  background: #F29720;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card7{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/ismael.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card8{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/ernesto.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card9  {
+	background-image: url(data:image/jpeg;base64,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);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+  background: #1D1F20;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 350px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+  background: #F29720;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card10{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/celeste.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card11{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/wilson.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card12{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/gustavo.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+  background: #1D1F20;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 350px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+  background: #F29720;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card13{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/kent.jpg);
+	background-size: cover;
+    border: coral 20px ridge;
+}
+
+.card14{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/elvis.jpg);
+	background-size: cover;
+    border: coral 20px groove;
+}
+
+.card15{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/eduardo.jpg);
+	background-size: cover;
+    border: coral 20px groove;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+  background: #1D1F20;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 340px;
+	height: 470px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: center;
+	color: blue;
+	font-family: "open sans";
+  background: #F29720;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card16{
+	background-image: url(http://di.unsa.edu.ar/wp-content/uploads/2020/11/cmartinez.jpg);
+	background-size: cover; 
+    border: coral 20px ridge;
+}
+
+.card17{
+	background-image: url(https://sistemas.edu.pe/copaisi/images/joel.jpg); 
+	background-size: cover;
+    border: coral 20px ridge;
+	
+}
+j1{
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    background-image: linear-gradient(navy, blue, aqua, lightblue,skyblue,lightCyan); 
+    border-style: solid;
+    border-width: 2px;
+    margin: 12px;
+    padding: 200px;
+    border-radius: 14px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.fue{
+	background-image:linear-gradient(60deg, red, orange,yellow,green, lightblue,violet );
+	color:#1D1F20;
+	
+}
+.efe{
+background-image:linear-gradient(60deg, red, orange,yellow,green, lightblue,blue,violet );
+	color:#1D1F20;
+}
+.efe1{
+	background-image:linear-gradient(-60deg, red, orange,yellow,green, lightblue,blue,violet );
+		color:#1D1F20;
+	}
+
+.abcd{
+	background-image:linear-gradient(60deg, red, orange,yellow,green, lightblue,blue,violet );
+	color:#1D1F20;
+	border: violet , aqua 2px double;
+}
+.aya{
+	background-image: linear-gradient(navy, blue, aqua, lightblue,skyblue,lightCyan );
+}
+.ala{
+	background-image: linear-gradient(100deg, lightblue, violet, lightCyan );
+	color:#1D1F20;
+
+}
+vale{
+		font-family: ariel;
+		font-size: 20px;
+		font-weight: bold;
+		color:#fff;
+		
+		border-style: solid;
+		border-color: skyblue;
+		background-image: linear-gradient(100deg,blue, navy, aqua, royalblue);
+}
+ba{
+background-image: linear-gradient(100deg,blue, navy, aqua, royalblue);
+}
+html{
+	scroll-behavior: smooth;
+}
+
